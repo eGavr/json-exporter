@@ -1,0 +1,37 @@
+{
+  "name": "json-exporter",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/eGavr/json-exporter",
+  "bugs": "https://github.com/eGavr/json-exporter/issues",
+  "author": {
+    "name": "Evgeniy Gavryushin",
+    "email": "job.egabr@yandex.ru",
+    "url": "https://github.com/eGavr"
+  },
+  "main": "",
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eGavr/json-exporter.git"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "request": "^2.37.0",
+    "vow": "^0.4.4",
+    "vow-node": "^0.2.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

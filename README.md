@@ -24,12 +24,12 @@ Usage:
 Options:
   -h, --help : Help
   -v, --version : Shows the version number
-  --cli=CLI : URL-path to the latest data in club which is kept in JSON-format (required)
+  --url=URL : URL-path to the latest data in club which is kept in JSON-format (required)
   -o OUTPUT, --output=OUTPUT : Output JSON-file
 ```
 
 ## Example
 
 ```bash
-$ bin/json-exporter --cli=URL-path --output=res.json
+$ bin/json-exporter --url=http://api-yaru.yandex.ru/club/4611686018427404475/post/?format=json --output=res.json
 ```
